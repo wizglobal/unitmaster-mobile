@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wizglobal.app.BalanceInquiryActivity">
+</LinearLayout>
+<!-- From: file:/home/tiberius/Dropbox/My%20Projects/Android%20Projects/WizGlobal-Android/app/src/main/res/layout/activity_balance_inquiry.xml -->

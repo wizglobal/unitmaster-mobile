@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/panafrica_grey"
+    android:orientation="vertical"
+    tools:context="com.wizglobal.app.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="128dp"
+            android:src="@drawable/ic_chama">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="128dp"
+            android:src="@drawable/ic_pata">
+            </ImageView>
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="128dp"
+            android:src="@drawable/ic_pesa">
+        </ImageView>
+
+    </LinearLayout>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnMainLogin"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="loadLogin"
+        android:text="@string/btnLogin"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        bootstrap:bb_icon_right="fa-key"
+        bootstrap:bb_type="primary"/>
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnMainSelfReg"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="loadSelfRegister"
+        android:text="@string/btnSelfRegister"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        bootstrap:bb_icon_right="fa-pencil"
+        bootstrap:bb_type="primary" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnMainPriceList"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="loadPriceList"
+        android:text="@string/btnPriceList"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        bootstrap:bb_icon_right="fa-list"
+        bootstrap:bb_type="primary" />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnMainProducts"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="loadProductList"
+        android:text="@string/btnProductList"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        bootstrap:bb_icon_right="fa-list"
+        bootstrap:bb_type="primary" />
+
+</LinearLayout>
+
+
+<!-- From: file:/Users/zack/wizglobal/wiz_global_android/app/src/main/res/layout/activity_main.xml -->

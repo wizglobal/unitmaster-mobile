@@ -1,0 +1,7 @@
+<android.support.v4.view.ViewPager xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</android.support.v4.view.ViewPager>
+<!-- From: file:/Users/zack/wizglobal/wiz_global_android/app/src/main/res/layout/activity_messages.xml -->

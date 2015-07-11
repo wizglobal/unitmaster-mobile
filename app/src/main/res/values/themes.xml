@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the theme applied to the application or activity -->
+    <style name="PanAfricaTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/PanAfricaActionBar</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="PanAfricaActionBar"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/apptheme_action_bar</item>
+        <item name="android:titleTextStyle">@style/PanAfricaActionBarTitleText</item>
+        <item name="android:backgroundSplit">@color/panafrica_grey</item>
+
+    </style>
+
+    <!--Pan Africa Action Bar Title Text-->
+    <style name="PanAfricaActionBarTitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/panafrica_grey</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+</resources>

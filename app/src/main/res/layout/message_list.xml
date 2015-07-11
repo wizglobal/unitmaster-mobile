@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!--Subject-->
+    <TextView
+        android:id="@+id/mSubject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="4dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:text="Subject"
+        android:textColor="@color/apptheme_text"
+        android:textSize="20dp" />
+
+    <!--preview-->
+    <TextView
+        android:id="@+id/mPreview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mSubject"
+        android:paddingBottom="6dp"
+        android:paddingLeft="8dp"
+        android:text="Content"
+        android:textColor="#999999"
+        android:textSize="16dp" />
+
+    <!--Date Time-->
+    <TextView
+        android:id="@+id/mDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="8dp"
+        android:text="00:00 AM"
+        android:textColor="#999999" />
+</RelativeLayout>
+
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/panafrica_blue">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="30dp">
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/txtSubject"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left"
+            android:hint="@string/hintSubject"
+            bootstrap:be_roundedCorners="true" />
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/txtMessage"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="left"
+            android:hint="@string/hintCompose"
+            android:maxLength="200"
+            android:textSize="16dp"
+            bootstrap:be_roundedCorners="true" />
+
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:onClick="postMessage"
+            android:text="@string/btnSend"
+            android:textAlignment="center"
+            bootstrap:bb_icon_right="fa-envelope"
+            bootstrap:bb_type="default" />
+    </LinearLayout>
+
+
+</ScrollView><!-- From: file:/Users/zack/wizglobal/wiz_global_android/app/src/main/res/layout/fragment_new_message.xml -->

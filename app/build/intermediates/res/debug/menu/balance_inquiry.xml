@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wizglobal.app.BalanceInquiryActivity" >
+
+    <item
+        android:id="@+id/action_change_password"
+        android:title="@string/change_password" />
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/logout" />
+</menu>
+<!-- From: file:/Users/zack/wizglobal/wiz_global_android/app/src/main/res/menu/balance_inquiry.xml -->

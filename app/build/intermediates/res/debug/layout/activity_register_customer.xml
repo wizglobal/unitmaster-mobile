@@ -1,0 +1,128 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrap="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/panafrica_blue">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:paddingTop="10dp">
+
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/txtFname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="10dp"
+
+            android:hint="@string/hintFname"
+            bootstrap:be_roundedCorners="true"
+            android:gravity="left|center_vertical"
+            android:inputType="textPersonName"
+            android:maxLength="30" />
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/txtSurname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hintSurname"
+            bootstrap:be_roundedCorners="true"
+            android:gravity="left|center_vertical"
+            android:inputType="textPersonName"
+            android:maxLength="30" />
+
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/txtOnames"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hintOnames"
+            bootstrap:be_roundedCorners="true"
+            android:gravity="left|center_vertical"
+            android:inputType="textPersonName"
+            android:maxLength="30" />
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/txtTown"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hintTown"
+            bootstrap:be_roundedCorners="true"
+            android:gravity="left|center_vertical"
+            android:maxLength="30" />
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/txtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hintPhone"
+            bootstrap:be_roundedCorners="true"
+            android:gravity="left|center_vertical"
+            android:inputType="phone|number"
+            android:maxLength="10" />
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hintEmail"
+            bootstrap:be_roundedCorners="true"
+            android:gravity="left|center_vertical"
+            android:inputType="textEmailAddress"
+            android:maxLength="30" />
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/txtId"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hintId"
+            bootstrap:be_roundedCorners="true"
+            android:gravity="left|center_vertical"
+            android:inputType="phone|number"
+            android:maxLength="15" />
+
+        <com.beardedhen.androidbootstrap.BootstrapEditText
+            android:id="@+id/txtDob"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/hintDob"
+            bootstrap:be_roundedCorners="true"
+            android:gravity="left|center_vertical"
+            android:inputType="date"
+            />
+
+            <com.beardedhen.androidbootstrap.BootstrapButton
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:onClick="registerCustomer"
+                android:text="@string/btnSubmit"
+                android:textAlignment="center"
+                bootstrap:bb_icon_right="fa-check-circle"
+                bootstrap:bb_type="default" />
+        </LinearLayout>
+
+</ScrollView>
+
+<!-- From: file:/Users/zack/wizglobal/wiz_global_android/app/src/main/res/layout/activity_register_customer.xml -->

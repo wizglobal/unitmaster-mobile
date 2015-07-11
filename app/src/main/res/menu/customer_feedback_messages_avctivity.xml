@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wizglobal.app.MessagesActivity" >
+
+    <item
+        android:id="@+id/action_change_password"
+        android:title="@string/change_password" />
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/logout" />
+</menu>

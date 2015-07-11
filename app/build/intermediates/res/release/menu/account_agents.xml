@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.wizglobal.app.AccountAgentsActivity" >
+
+    <item
+        android:id="@+id/action_change_password"
+        android:title="@string/change_password" />
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/logout" />
+</menu>
+<!-- From: file:/home/tiberius/Dropbox/My%20Projects/Android%20Projects/WizGlobal-Android/app/src/main/res/menu/account_agents.xml -->

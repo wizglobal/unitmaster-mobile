@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/zack/wizglobal/wiz_global_android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/Users/zack/wizglobal/wiz_global_android/app/build/intermediates/pre-dexed/debug/classes-a9ca5a9a4f082ebdf7770c978b18f08a097e0895.jar" />
+    </item>
+    <item
+        jar="/Users/zack/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/zack/wizglobal/wiz_global_android/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-c5f50c4a772314d16298a3885bf0f6201a18e57a.jar" />
+    </item>
+    <item
+        jar="/Users/zack/wizglobal/wiz_global_android/app/build/intermediates/exploded-aar/wiz_global_android/AndroidBootstrap/unspecified/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f26d950135c52113d82bbaacb9ad6591cc8a6817">
+        <dex dex="/Users/zack/wizglobal/wiz_global_android/app/build/intermediates/pre-dexed/debug/classes-1af4c0e4341201bd701cd7e8daa0e6077930c5ea.jar" />
+    </item>
+    <item
+        jar="/Users/zack/wizglobal/wiz_global_android/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.0.30/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="cebe8e4a3a469c4623addcca1dc571407ff3a08e">
+        <dex dex="/Users/zack/wizglobal/wiz_global_android/app/build/intermediates/pre-dexed/debug/classes-efaedbdf8efe9ad3d79c0f6f7fbb8c523565a10e.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wizglobal.app.ProductsList">
+
+    <ListView
+        android:id="@+id/lvProductsList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="5dp"
+        android:divider="#CCC"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>
+<!-- From: file:/home/tiberius/Dropbox/My%20Projects/Android%20Projects/WizGlobal-Android/app/src/main/res/layout/activity_products_list.xml -->

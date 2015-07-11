@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <stroke android:width="0.5dip" android:color="#69D2DC" />
+</shape><!-- From: file:/home/tiberius/Dropbox/My%20Projects/Android%20Projects/WizGlobal-Android/app/src/main/res/drawable-hdpi/list_item_border.xml -->

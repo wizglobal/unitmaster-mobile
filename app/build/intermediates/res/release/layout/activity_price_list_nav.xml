@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/panafrica_grey"
+    tools:context="com.wizglobal.app.PriceListNavActivity" >
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvPriceListNav"
+        android:divider="#CCC"
+        android:dividerHeight="1dp"
+        android:layout_marginTop="5dp"/>
+</LinearLayout>
+<!-- From: file:/home/tiberius/Dropbox/My%20Projects/Android%20Projects/WizGlobal-Android/app/src/main/res/layout/activity_price_list_nav.xml -->

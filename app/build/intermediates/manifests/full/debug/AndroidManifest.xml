@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wizglobal.app"
+    android:versionCode="1"
+    android:versionName="1.0.7" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/PanAfricaTheme" >
+        <activity
+            android:name="com.wizglobal.app.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.LoginActivity"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.PriceListActivity"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.BalanceInquiryActivity"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.TransferActivity"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.SellActivity"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.MiniStatementActivity"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.AccountAgentsActivity"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.RegisterCustomerActivity"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.CustomerListActivity"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.MessagesActivity"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.FeedbackActivity"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.ChangePasswordActivity"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.MenuActivity"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.ProductListNavActivity"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.PriceListNavActivity"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.ProductListInterestActivity"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.PriceListInterestActivity"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.AccountList"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.MainActivity"
+            android:label="@string/main_title" >
+        </activity>
+        <activity
+            android:name="com.wizglobal.app.ProductsList"
+            android:label="@string/main_title" >
+        </activity>
+    </application>
+
+</manifest>
